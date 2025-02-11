@@ -3,8 +3,8 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Hey, welcome to DevOps Zero To Hero'
+    return 'Hey, my name is akash and this is my docker project'
 
-@app.route('/health')
-def health():
+@app.route('/akash')
+def akash():
     return 'Server is up and running'
